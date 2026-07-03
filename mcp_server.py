@@ -14,7 +14,7 @@ from utils import clean_html_to_txt, get_response_from_llm
 load_dotenv()
 
 
-mcp = FastMCP("docs")
+mcp = FastMCP("ChronoMesh")
 
 SERPER_URL= "https://google.serper.dev/search"
 

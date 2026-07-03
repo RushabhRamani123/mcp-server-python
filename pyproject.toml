@@ -1,9 +1,12 @@
 [project]
-name = "mcp-server-python"
+name = "chronomesh"
 version = "0.1.0"
-description = "Add your description here"
+description = "ChronoMesh private rebuild for documentation retrieval and web scraping"
 readme = "README.md"
 requires-python = ">=3.11"
+authors = [
+    { name = "Rushabh Vijay Ramani" },
+]
 dependencies = [
     "fastmcp>=2.12.2",
     "groq>=0.31.1",

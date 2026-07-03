@@ -1,6 +1,6 @@
-## MCP Server: Documentation Retrieval & Web Scraping (uv + FastMCP)
+## ChronoMesh Private Rebuild
 
-This project provides a minimal, async MCP (Model Context Protocol) server that exposes a tool for retrieving and cleaning official documentation content for popular AI / Python ecosystem libraries. It uses:
+ChronoMesh is a private rebuild by Rushabh Vijay Ramani. It provides a minimal, async MCP (Model Context Protocol) server that exposes a tool for retrieving and cleaning official documentation content for popular AI / Python ecosystem libraries. It uses:
 
 - `fastmcp` to define and run the MCP server over stdio.
 - `httpx` for async HTTP calls.
@@ -25,8 +25,8 @@ Prerequisites:
 
 ### 1. Clone & Install
 ```bash
-git clone <your-repo-url> mcp-server-python
-cd mcp-server-python
+git clone <your-repo-url> chronomesh
+cd chronomesh
 uv sync
 ```
 
@@ -200,4 +200,8 @@ Add a license section here (e.g., MIT) if you intend to distribute.
 - Groq for fast OSS model serving
 - Astral for `uv`
 - MCP ecosystem for protocol foundation
+
+## Ownership
+
+This private rebuild is maintained by Rushabh Vijay Ramani.
 
